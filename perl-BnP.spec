@@ -47,7 +47,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc {genopt.txt,README.txt,*pod}.gz misc build genopt *bnp *.diff*
+%doc {genopt.txt,README.txt,*pod}.gz build genopt *bnp *.diff*
+%doc misc/{mgenopt,restart,tags}
 
 %{perl_sitelib}/BnP.pm
 %{perl_sitearch}/auto/BnP
