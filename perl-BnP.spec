@@ -29,7 +29,7 @@ perla) na wielu ró¿nych platformach unixowych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
