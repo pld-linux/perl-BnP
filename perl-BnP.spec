@@ -3,7 +3,7 @@ Summary:	BnP perl module
 Summary(pl):	Modu³ perla BnP
 Name:		perl-BnP
 Version:	2.1.0
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/BnP/BnP-%{version}.tar.gz
