@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla BnP
 Name:		perl-BnP
 Version:	2.1.0
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module//BnP-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module//BnP-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -17,13 +17,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Build'n'Play is a batch tool intended for system administrators who
 have to install the same software packages (including, but not limited
-to Perl) on various Unix platforms over and over again (e.g. for perio-
-dically upgrading existing or installing new machines).
+to Perl) on various Unix platforms over and over again (e.g. for
+perio- dically upgrading existing or installing new machines).
 
 %description -l pl
-Modu³ perla Build'n'Play jest narzêdziem dla administartorów u³atwiaj±cym
-instalacjê tych samych programów (w³±cznie z pakietami perla) na wielu
-ró¿nych platformach unixowych.
+Modu³ perla Build'n'Play jest narzêdziem dla administartorów
+u³atwiaj±cym instalacjê tych samych programów (w³±cznie z pakietami
+perla) na wielu ró¿nych platformach unixowych.
 
 %prep
 %setup -q -n BnP-%{version}
