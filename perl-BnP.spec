@@ -1,4 +1,4 @@
-%define		perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
+%include	/usr/lib/rpm/macros.perl
 Summary:	BnP perl module
 Summary(pl):	Modu³ perla BnP
 Name:		perl-BnP
@@ -8,7 +8,8 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module//BnP-%{version}.tar.gz
-BuildRequires:	perl >= 5.005_03-10
+BuildRequires:	rpm-perlprov
+BuildRequires:	perl >= 5.005_03-12
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
@@ -20,7 +21,9 @@ to Perl) on various Unix platforms over and over again (e.g. for perio-
 dically upgrading existing or installing new machines).
 
 %description -l pl
-Modu³ perla Build'n'Play
+Modu³ perla Build'n'Play jest narzêdziem dla administartorów u³atwiaj±cym
+instalacjê tych samych programów (w³±cznie z pakietami perla) na wielu
+ró¿nych platformach unixowych.
 
 %prep
 %setup -q -n BnP-%{version}
