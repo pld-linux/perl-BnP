@@ -3,11 +3,11 @@ Summary:	BnP perl module
 Summary(pl):	Modu³ perla BnP
 Name:		perl-BnP
 Version:	2.1.0
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/BnP/BnP-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,7 +27,8 @@ perla) na wielu ró¿nych platformach unixowych.
 %setup -q -n BnP-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -41,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *txt genopt *bnp *.diff.linux misc/{mgenopt,restart,tags}
-%{perl_sitelib}/BnP.pm
+%{perl_vendorlib}/BnP.pm
 %{_mandir}/man3/*
