@@ -23,7 +23,7 @@ perio- dically upgrading existing or installing new machines).
 %description -l pl
 Modu³ Perla Build'n'Play jest narzêdziem dla administartorów
 u³atwiaj±cym instalacjê tych samych programów (w³±cznie z pakietami
-perla) na wielu ró¿nych platformach unixowych.
+Perla) na wielu ró¿nych platformach uniksowych.
 
 %prep
 %setup -q -n BnP-%{version}
