@@ -1,10 +1,11 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	BnP perl module
-Summary(pl):	Modu³ perla BnP
+Summary:	BnP - implements the automatic recovery mechanism of "Build'n'Play"
+Summary(pl):	BnP - implementacja automatycznego mechanizmu odzyskiwania dla "Build'n'Play"
 Name:		perl-BnP
 Version:	2.1.0
 Release:	8
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/BnP/BnP-%{version}.tar.gz
 # Source0-md5:	63eace514b995de9ad10f54b75eb2311
@@ -16,11 +17,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Build'n'Play is a batch tool intended for system administrators who
 have to install the same software packages (including, but not limited
-to Perl) on various Unix platforms over and over again (e.g. for
+to Perl) on various UNIX platforms over and over again (e.g. for
 perio- dically upgrading existing or installing new machines).
 
 %description -l pl
-Modu³ perla Build'n'Play jest narzêdziem dla administartorów
+Modu³ Perla Build'n'Play jest narzêdziem dla administartorów
 u³atwiaj±cym instalacjê tych samych programów (w³±cznie z pakietami
 perla) na wielu ró¿nych platformach unixowych.
 
