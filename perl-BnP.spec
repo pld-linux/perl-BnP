@@ -27,7 +27,7 @@ perla) na wielu ró¿nych platformach unixowych.
 %setup -q -n BnP-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
