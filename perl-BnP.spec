@@ -7,6 +7,7 @@ Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/BnP/BnP-%{version}.tar.gz
+# Source0-md5:	63eace514b995de9ad10f54b75eb2311
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
