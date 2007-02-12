@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	BnP - implements the automatic recovery mechanism of "Build'n'Play"
-Summary(pl):	BnP - implementacja automatycznego mechanizmu odzyskiwania dla "Build'n'Play"
+Summary(pl.UTF-8):   BnP - implementacja automatycznego mechanizmu odzyskiwania dla "Build'n'Play"
 Name:		perl-BnP
 Version:	2.1.0
 Release:	9
@@ -20,10 +20,10 @@ have to install the same software packages (including, but not limited
 to Perl) on various UNIX platforms over and over again (e.g. for
 perio- dically upgrading existing or installing new machines).
 
-%description -l pl
-Modu³ Perla Build'n'Play jest narzêdziem dla administartorów
-u³atwiaj±cym instalacjê tych samych programów (w³±cznie z pakietami
-Perla) na wielu ró¿nych platformach uniksowych.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Build'n'Play jest narzÄ™dziem dla administartorÃ³w
+uÅ‚atwiajÄ…cym instalacjÄ™ tych samych programÃ³w (wÅ‚Ä…cznie z pakietami
+Perla) na wielu rÃ³Å¼nych platformach uniksowych.
 
 %prep
 %setup -q -n BnP-%{version}
