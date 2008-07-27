@@ -3,7 +3,7 @@ Summary:	BnP - implements the automatic recovery mechanism of "Build'n'Play"
 Summary(pl.UTF-8):	BnP - implementacja automatycznego mechanizmu odzyskiwania dla "Build'n'Play"
 Name:		perl-BnP
 Version:	2.1.0
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
