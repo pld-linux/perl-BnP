@@ -1,3 +1,4 @@
+%define		pdir	BnP
 %include	/usr/lib/rpm/macros.perl
 Summary:	BnP - implements the automatic recovery mechanism of "Build'n'Play"
 Summary(pl.UTF-8):	BnP - implementacja automatycznego mechanizmu odzyskiwania dla "Build'n'Play"
@@ -9,8 +10,8 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/BnP/BnP-%{version}.tar.gz
 # Source0-md5:	63eace514b995de9ad10f54b75eb2311
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
