@@ -1,5 +1,4 @@
 %define		pdir	BnP
-%include	/usr/lib/rpm/macros.perl
 Summary:	BnP - implements the automatic recovery mechanism of "Build'n'Play"
 Summary(pl.UTF-8):	BnP - implementacja automatycznego mechanizmu odzyskiwania dla "Build'n'Play"
 Name:		perl-BnP
